@@ -1,0 +1,122 @@
+<!-- Abdullah hassan 26i-3110 SE-C -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CafeRagra - Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">CafeRagra</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html" class="active">Menu</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <section class="page-banner">
+        <p class="small-title">CAFErAGRA MENU</p>
+        <h1>Our Menu</h1>
+        <p>Freshly prepared drinks and cafe favourites.</p>
+    </section>
+
+    <section class="menu-section">
+        <h2>Hot Coffee</h2>
+
+        <div class="menu-grid">
+
+            <div class="menu-card">
+                <img src="espresso.svg" alt="Espresso">
+                <div class="menu-info">
+                    <h3>Espresso</h3>
+                    <p>Strong, rich and freshly brewed coffee.</p>
+                    <div class="item-bottom">
+                        <span class="price">Rs. 250</span>
+                        <button onclick="orderespresso()">Order</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="latte.svg" alt="Latte">
+                <div class="menu-info">
+                    <h3>Latte</h3>
+                    <p>Smooth espresso blended with steamed milk.</p>
+                    <div class="item-bottom">
+                        <span class="price">Rs. 500</span>
+                        <button onclick="orderLatte()">Order</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="cappuccino.svg" alt="Cappuccino">
+                <div class="menu-info">
+                    <h3>Cappuccino</h3>
+                    <p>Espresso with steamed milk and a creamy foam.</p>
+                    <div class="item-bottom">
+                        <span class="price">Rs. 450</span>
+                        <button onclick="orderCappuccino()">Order</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <h2 class="category-heading">Cold Drinks</h2>
+
+        <div class="menu-grid">
+
+            <div class="menu-card">
+                <img src="iced-mocha.svg" alt="Iced Mocha">
+                <div class="menu-info">
+                    <h3>Iced Mocha</h3>
+                    <p>Cold coffee with chocolate and a refreshing taste.</p>
+                    <div class="item-bottom">
+                        <span class="price">Rs. 700</span>
+                        <button onclick="orderIcedMocha()">Order</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="iced-coffee.svg" alt="Iced Coffee">
+                <div class="menu-info">
+                    <h3>Iced Coffee</h3>
+                    <p>Chilled coffee served with ice for a refreshing drink.</p>
+                    <div class="item-bottom">
+                        <span class="price">Rs. 550</span>
+                        <button onclick="orderIcedCoffee()">Order</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="chocolate.svg" alt="Hot Chocolate">
+                <div class="menu-info">
+                    <h3>Hot Chocolate</h3>
+                    <p>Warm, smooth and chocolatey cafe favourite.</p>
+                    <div class="item-bottom">
+                        <span class="price">Rs. 400</span>
+                        <button onclick="orderHotChocolate()">Order</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 CafeRagra | Abdullah Hassan | SE-C</p>
+</footer>
+
+<script src="working.js"></script>
+</body>
+</html>
