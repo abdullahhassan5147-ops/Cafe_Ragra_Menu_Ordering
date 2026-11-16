@@ -125,7 +125,10 @@ nav a.active {
     text-align: center;
 }
 
-.specials h2 {
+.specials h2,
+.menu-section h2,
+.contact-info h2,
+.contact-form h2 {
     font-size: 34px;
     margin-bottom: 8px;
 }
@@ -189,7 +192,9 @@ nav a.active {
     margin: 12px 0;
 }
 
-.card button {
+.card button,
+.menu-card button,
+.contact-form button {
     border: none;
     background-color: #6f452d;
     color: white;
@@ -199,8 +204,189 @@ nav a.active {
     font-size: 14px;
 }
 
-.card button:hover {
+.card button:hover,
+.menu-card button:hover,
+.contact-form button:hover {
     background-color: #4f3022;
+}
+
+/* Shared pages */
+
+.page-banner {
+    background-color: #ead8bd;
+    text-align: center;
+    padding: 55px 20px;
+}
+
+.page-banner h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.page-banner p:last-child {
+    color: #765b4b;
+    font-size: 17px;
+}
+
+.menu-section,
+.gallery-section,
+.contact-section {
+    width: 84%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 55px 0;
+}
+
+.menu-section {
+    text-align: center;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.menu-card {
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.12);
+    text-align: left;
+}
+
+.menu-card img {
+    width: 100%;
+    height: 210px;
+    display: block;
+    object-fit: cover;
+}
+
+.menu-info {
+    padding: 20px;
+}
+
+.menu-info h3 {
+    font-size: 23px;
+    margin-bottom: 8px;
+}
+
+.menu-info p {
+    color: #6d5a50;
+    line-height: 1.5;
+    min-height: 48px;
+}
+
+.item-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.price {
+    color: #6f452d;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.category-heading {
+    margin-top: 50px !important;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.gallery-item {
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.12);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 260px;
+    display: block;
+    object-fit: cover;
+}
+
+.gallery-caption {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+}
+
+.contact-info,
+.contact-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.10);
+}
+
+.contact-info > p {
+    color: #6d5a50;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.contact-box {
+    border-left: 4px solid #6f452d;
+    padding: 10px 15px;
+    margin: 15px 0;
+    background-color: #f7f1e8;
+}
+
+.contact-box h3 {
+    margin-bottom: 5px;
+}
+
+.contact-box p {
+    color: #6d5a50;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin: 13px 0 6px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    border: 1px solid #c9b9a8;
+    border-radius: 7px;
+    padding: 11px;
+    font-family: inherit;
+    font-size: 15px;
+    background-color: #fffaf5;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: 2px solid #d9b88d;
+}
+
+.contact-form button {
+    margin-top: 18px;
+    width: fit-content;
 }
 
 footer {
@@ -209,6 +395,17 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 20px;
+}
+
+@media (max-width: 900px) {
+    .menu-grid,
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact-section {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (max-width: 800px) {
@@ -237,5 +434,22 @@ footer {
 
     .hero h1 {
         font-size: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    .menu-grid,
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .menu-section,
+    .gallery-section,
+    .contact-section {
+        width: 90%;
+    }
+
+    .page-banner h1 {
+        font-size: 36px;
     }
 }
