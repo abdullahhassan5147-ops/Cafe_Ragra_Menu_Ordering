@@ -1,53 +1,91 @@
 <!-- Abdullah hassan 26i-3110 SE-C -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Cafe Menu</title>
-<link rel="stylesheet" href="style.css">
-<script src="working.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CafeRagra - Home</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>CafeRagra</h1>
-<br>
-<img src="image.webp" alt="alternatetext">
-<table >
-    <tr>
-        <th>Name</th>
-        <th>Price</th>
-        <th>Categories</th>
-    </tr>
-    <tr>
-        <td>Espresso</td>
-        <td>250</td>
-        <td>HOT</td>
-    </tr>
-    <tr>
-        <td>Latte</td>
-        <td>500</td>
-        <td>HOT</td>
-    </tr>
-    <tr>
-        <td>Iced Mocha</td>
-        <td>700</td>
-        <td>COLD</td>
-    </tr>
-<<<<<<< Updated upstream
-    <tr>
-        <td>Chair</td>
-        <td>70</td>
-        <td>HOT</td>
-    </tr>
-=======
->>>>>>> Stashed changes
+<header class="navbar">
+    <div class="logo">CafeRagra</div>
 
-</table>
-<button onclick="orderespresso()" id="button1">OrderEspresso</button><br>
-<button onclick="orderLatte()" id="button2">OrderLatte</button><br>
-<<<<<<< Updated upstream
-<button onclick="orderIcedMocha()"id="button3">OrderIcedMocha</button><br>
-=======
-<button onclick="orderIcedMocha()"id="button3">OrderIcedMocha</button>
->>>>>>> Stashed changes
+    <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="hero-content">
+            <p class="small-title">WELCOME TO CAFERAGRA</p>
+            <h1>Fresh Coffee.<br>Good Mood.</h1>
+
+            <p>
+                Enjoy freshly prepared coffee and cafe favourites
+                in a simple and comfortable place.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="menu.html" class="main-button">View Our Menu</a>
+                <a href="gallery.html" class="secondary-button">Our Gallery</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="image.webp" alt="Coffee beans and coffee cups">
+        </div>
+    </section>
+
+    <section class="specials">
+        <h2>Our Popular Items</h2>
+        <p class="section-text">A few favourites from CafeRagra</p>
+
+        <div class="cards">
+
+            <div class="card">
+                <div class="item-image espresso-image">
+                    <span>☕</span>
+                </div>
+                <h3>Espresso</h3>
+                <p>Strong and rich coffee for a perfect start.</p>
+                <p class="price">Rs. 250</p>
+                <button onclick="orderespresso()">Order Espresso</button>
+            </div>
+
+            <div class="card">
+                <div class="item-image latte-image">
+                    <span>☕</span>
+                </div>
+                <h3>Latte</h3>
+                <p>Smooth espresso with creamy steamed milk.</p>
+                <p class="price">Rs. 500</p>
+                <button onclick="orderLatte()">Order Latte</button>
+            </div>
+
+            <div class="card">
+                <div class="item-image mocha-image">
+                    <span>🍫</span>
+                </div>
+                <h3>Iced Mocha</h3>
+                <p>Cold coffee with chocolate and a refreshing taste.</p>
+                <p class="price">Rs. 700</p>
+                <button onclick="orderIcedMocha()">Order Iced Mocha</button>
+            </div>
+
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 CafeRagra | Abdullah Hassan | SE-C</p>
+</footer>
+
+<script src="working.js"></script>
 </body>
 </html>
