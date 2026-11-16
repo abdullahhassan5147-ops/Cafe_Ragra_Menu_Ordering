@@ -1,0 +1,85 @@
+<!-- Abdullah hassan 26i-3110 SE-C -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CafeRagra - Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">CafeRagra</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html" class="active">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <section class="page-banner">
+        <p class="small-title">GET IN TOUCH</p>
+        <h1>Contact Us</h1>
+        <p>We would love to hear from you.</p>
+    </section>
+
+    <section class="contact-section">
+
+        <div class="contact-info">
+            <h2>Visit CafeRagra</h2>
+            <p>
+                Have a question, want to place an order, or just want
+                to say hello? Contact us using the information below.
+            </p>
+
+            <div class="contact-box">
+                <h3>Address</h3>
+                <p>123 Main Street, Your City, Pakistan</p>
+            </div>
+
+            <div class="contact-box">
+                <h3>Phone</h3>
+                <p>+92 300 1234567</p>
+            </div>
+
+            <div class="contact-box">
+                <h3>Email</h3>
+                <p>info@caferagra.com</p>
+            </div>
+
+            <div class="contact-box">
+                <h3>Opening Hours</h3>
+                <p>Monday - Sunday: 9:00 AM - 10:00 PM</p>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h2>Send Us a Message</h2>
+
+            <form onsubmit="sendMessage(event)">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" rows="6" placeholder="Write your message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 CafeRagra | Abdullah Hassan | SE-C</p>
+</footer>
+
+<script src="working.js"></script>
+</body>
+</html>
