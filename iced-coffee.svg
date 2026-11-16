@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+<rect width="600" height="400" fill="#d4c2aa"/>
+<path d="M210 100h180l-20 220H230z" fill="#fff8ee"/>
+<rect x="235" y="145" width="130" height="155" fill="#9b6040"/>
+<circle cx="260" cy="160" r="18" fill="#ead8bd"/><circle cx="305" cy="190" r="20" fill="#ead8bd"/><circle cx="345" cy="160" r="18" fill="#ead8bd"/>
+<path d="M210 100h180" stroke="#33231c" stroke-width="8"/>
+<path d="M350 100l55-65" stroke="#33231c" stroke-width="8"/>
+<text x="300" y="355" text-anchor="middle" font-family="Arial" font-size="32" font-weight="bold" fill="#33231c">ICED COFFEE</text>
+</svg>

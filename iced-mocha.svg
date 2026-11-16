@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+<rect width="600" height="400" fill="#b58a6a"/>
+<path d="M205 105h190l-18 215H223z" fill="#f7f1e8" opacity=".9"/>
+<rect x="225" y="145" width="150" height="155" fill="#6f452d"/>
+<path d="M205 105h190" stroke="#fff8ee" stroke-width="12"/>
+<ellipse cx="300" cy="112" rx="95" ry="28" fill="#fff8ee"/>
+<path d="M255 100c10-30 25-35 40-5 12-35 30-30 42 3" fill="none" stroke="#fff8ee" stroke-width="16"/>
+<circle cx="260" cy="150" r="9" fill="#4a2b20"/><circle cx="300" cy="170" r="9" fill="#4a2b20"/><circle cx="340" cy="145" r="9" fill="#4a2b20"/>
+<text x="300" y="355" text-anchor="middle" font-family="Arial" font-size="32" font-weight="bold" fill="#33231c">ICED MOCHA</text>
+</svg>

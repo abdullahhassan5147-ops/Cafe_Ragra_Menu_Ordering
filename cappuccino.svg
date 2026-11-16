@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+<rect width="600" height="400" fill="#d8b18c"/>
+<path d="M155 155h290v95c0 65-55 95-145 95s-145-30-145-95z" fill="#fff8ee"/>
+<ellipse cx="300" cy="155" rx="145" ry="45" fill="#f5eadc"/>
+<ellipse cx="300" cy="155" rx="115" ry="34" fill="#c98f62"/>
+<circle cx="260" cy="150" r="16" fill="#ead8bd"/>
+<circle cx="305" cy="145" r="14" fill="#ead8bd"/>
+<circle cx="345" cy="155" r="17" fill="#ead8bd"/>
+<path d="M445 180c75-5 75 75 0 70" fill="none" stroke="#fff8ee" stroke-width="25"/>
+<text x="300" y="350" text-anchor="middle" font-family="Arial" font-size="32" font-weight="bold" fill="#33231c">CAPPUCCINO</text>
+</svg>

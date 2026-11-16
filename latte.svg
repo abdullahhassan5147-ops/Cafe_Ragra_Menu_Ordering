@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+<rect width="600" height="400" fill="#f0d2a8"/>
+<path d="M170 150h260v100c0 55-45 90-130 90s-130-35-130-90z" fill="#fff8ee"/>
+<ellipse cx="300" cy="150" rx="130" ry="42" fill="#ead8bd"/>
+<ellipse cx="300" cy="150" rx="105" ry="30" fill="#b77b4b"/>
+<path d="M430 175c80-5 80 80 0 75" fill="none" stroke="#fff8ee" stroke-width="25"/>
+<path d="M250 150c20-28 40 28 60 0s40 28 60 0" fill="none" stroke="#f7f1e8" stroke-width="9"/>
+<text x="300" y="345" text-anchor="middle" font-family="Arial" font-size="34" font-weight="bold" fill="#33231c">LATTE</text>
+</svg>
